@@ -27,3 +27,31 @@ The Beep Booper is a program made to take a users inputted number and display ev
 **Returns a message "im sorry, Dave. I'm afraid I cant do that" when an inputted number is divisible by 3.**
 * Input: 9
 * Output: "I'm sorry, Dave. I'm afraid i cant do that"
+
+## Setup/Installation Requirements
+
+#### You must clone this repository
+
+* Open terminal and type "cd ~"
+* Type "cd desktop"
+* type git clone https://github.com/GrantRotzien/beep-booper
+* go to desktop and a find your new file
+* open index.html in said file
+
+* Or simply click this link https://GrantRotzien.github.io/beep-booper/index.html
+
+## Known bugs
+No known bugs at this time
+
+## Support and contact details
+_Please contact me at grantqrotzien@comcast.net if you have any questions or  feedback on the application_
+
+## Technologies Used
+_HTML_
+_CSS_
+_ATOM_
+_JavaScript_
+
+### License
+_MIT License_
+Copyright (c) 2017 **_Grant Rotzien_**
