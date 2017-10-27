@@ -49,8 +49,10 @@ _Please contact me at grantqrotzien@comcast.net if you have any questions or  fe
 ## Technologies Used
 _HTML_
 _CSS_
-_ATOM_
+_Atom_
 _JavaScript_
+_Jquery_
+_Bootstrap_
 
 ### License
 _MIT License_
