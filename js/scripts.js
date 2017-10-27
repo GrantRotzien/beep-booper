@@ -2,9 +2,9 @@ function numLister(num) {
   var numArray = [];
   for (var i = 1; i <= num; i++) {
     if (i % 3 === 0) {
-      numArray.push(" " + "I'm sorry, Dave. I'm afraid I can't do that.");
+      numArray.push("<li> " + "I'm sorry, Dave. I'm afraid I can't do that." + "</li>");
     } else {
-      numArray.push(" " + i);
+      numArray.push("<li> " + i + "</li>");
     }
   }
   //Case is support for specs
@@ -16,23 +16,11 @@ function numLister(num) {
   console.log(outputNum);
 };
 
-
-
-
-
-
-
-
-
-
-
-
 // User Interface Logic:
 $(function() {
   $("#counter").submit(function(event) {
     event.preventDefault();
-    var userInput = parseInt($("#num-input").val());
-    var output = numLister(userInput);
-    $("#countup-output").text(output);
+    $('#countup-output').empty();
+    $("#countup-output").append(numLister(parseInt($("#number-input").val())));
   });
 });
