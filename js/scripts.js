@@ -4,16 +4,15 @@ function numLister(num) {
     if (i % 3 === 0) {
       numArray.push("<li> " + "I'm sorry, Dave. I'm afraid I can't do that." + "</li>");
     } else {
-      numArray.push("<li> " + i + "</li>");
+      numArray.push("<li> " + i + " </li>");
     }
   }
   //Case is support for specs
-  var beepCase = numArray.toString().replace(/1/g, " " + "Beep!");
+  var beepCase = numArray.toString().replace(/1/g, " " + "Beep! ");
   var boopCase = beepCase.replace(/0/g, " " + "Boop!");
   var outputNum = boopCase.replace(/,/g, "");
 
   return outputNum
-  console.log(outputNum);
 };
 
 // User Interface Logic:
