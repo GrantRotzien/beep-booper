@@ -3,7 +3,10 @@ h1 {
   text-align: center;
 }
 
+.italic {
+  font-style: italic;
+}
 
-.btn {
-  float: left;
+.card {
+  margin-bottom: 10px;
 }

@@ -3,26 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Beep-Booper</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1>Beep-Booper</h1>
-      <form id="counter">
-        <div class="form-group">
-          <label>Enter your input here</label>
-          <input id="number-input" type="number" max="1000">
+      <div class="card">
+        <h3 class="card-header">Beep-Booper</h3>
+        <div class="card-block">
+          <h4>Enter your input below</h4>
+          <p>Just dont enter anything above 1000, oh and dont expect to see any ones, zeroes, or anything divisible by 3.</p>
+          <p class="italic">Your name is Dave by the way, dont fight it, just accept it.</p>
+          <form id="counter">
+            <div class="form-group">
+              <input id="number-input" type="number" max="1000">
+            </div>
+            <button type="submit" class="btn btn-info">Beep-Boop-It!</button>
+          </form>
         </div>
-        <button type="submit" class="btn btn-info">Beep-Boop-It!</button>
-      </form>
+      </div>
 
-
-      <div>
-        <ul id="countup-output">
-        </ul>
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Beep-Booper</h4>
+          <ul class="card-text" id="countup-output">
+          </ul>
+        </div>
       </div>
 
     </div>
